@@ -1,0 +1,105 @@
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Pendaftaran</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #2c3e50;
+      font-size: 25px;
+      margin-bottom: 25px;
+    }
+
+    form {
+      background-color: white;
+      max-width: 400px;
+      margin: auto;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      color: #34495e;
+      font-weight: bold;
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 18px;
+      border: 1px solid #ccd5df;
+      border-radius: 6px;
+      box-sizing: border-box;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      outline: none;
+      border-color: #3498db;
+    }
+
+    textarea {
+      height: 90px;
+      resize: vertical;
+    }
+
+    button {
+      width: 100%;
+      background-color: #3498db;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Form Pendaftaran</h2>
+
+  <form action="">
+    <label for="nama">Nama :</label>
+    <input id="nama" type="text" placeholder="Masukkan nama kamu">
+
+    <label for="umur">Umur :</label>
+    <input id="umur" type="text" placeholder="Masukkan umur kamu">
+
+    <label for="prodi">Prodi :</label>
+    <select name="" id="prodi">
+      <option value="Matematika">Matematika</option>
+      <option value="Biologi">Biologi</option>
+    </select>
+
+    <label for="angkatan">Angkatan :</label>
+    <input id="angkatan" type="text" placeholder="Masukkan tahun angkatan">
+
+    <label for="password">Password :</label>
+    <input id="password" type="password" placeholder="Masukkan password">
+
+    <label for="keterangan">Keterangan :</label>
+    <textarea name="" id="keterangan" placeholder="Tulis keterangan di sini"></textarea>
+
+    <button type="submit">Kirim</button>
+  </form>
+</body>
+</html>
